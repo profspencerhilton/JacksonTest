@@ -1,0 +1,50 @@
+/* CartPage.css */
+.cart-page {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font example */
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+.cart-item-title {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+.remove-btn:hover {
+  background-color: #dc3545; /* Darker red on hover */
+}
+
+.cart-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}

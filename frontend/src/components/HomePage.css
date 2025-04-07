@@ -1,0 +1,9 @@
+/* HomePage.css */
+.home-page {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}

@@ -1,0 +1,39 @@
+/* BookPage.css */
+.cart-page {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-page {
+  /* Additional tweaks for BookPage if desired */
+}
+
+#bookCard {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+#bookCard:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+.list-unstyled {
+  margin-bottom: 15px;
+}
+
+.btn-success,
+.btn-secondary {
+  margin-right: 10px;
+  margin-top: 10px;
+}
